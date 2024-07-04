@@ -1,0 +1,28 @@
+Grundlæggende programmering:
+i faget grundlæggende programmering gik vi igennem nogle eksampler i sproget C# som er et decideret objektorienteret sprog som er defineret at kode er typisk placeret i klasser og man kan omfatte klasse som et sted at placere metoder med kode, som kan afvikles. Det er designet til at være enkelt, moderne, fleksibelt og brugervenligt. C# anvendes især til udvikling af windows-applikationer, web-applikationer, spil og meget mere.
+I faget har jeg gennemgået følgende områder:
+Datatyper: Variabler og konstanter 
+Metode kald 
+Løkkestrukutrer : For, do-while og while
+Betingelser: If, if-else og switch case 
+Grafisk brugerflader (console skærm)  
+
+Grundlæggende koncepter:
+1.	Hello world
+
+Det første program man typisk skriver er ”Hello World”-program
+
+~~~ 
+using System;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+~~~
