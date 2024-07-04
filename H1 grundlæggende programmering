@@ -1,4 +1,4 @@
-Grundlæggende programmering:
+//Grundlæggende programmering:
 i faget grundlæggende programmering gik vi igennem nogle eksampler i sproget C# som er et decideret objektorienteret sprog som er defineret at kode er typisk placeret i klasser og man kan omfatte klasse som et sted at placere metoder med kode, som kan afvikles. Det er designet til at være enkelt, moderne, fleksibelt og brugervenligt. C# anvendes især til udvikling af windows-applikationer, web-applikationer, spil og meget mere.
 I faget har jeg gennemgået følgende områder:
 Datatyper: Variabler og konstanter 
@@ -7,12 +7,12 @@ Løkkestrukutrer : For, do-while og while
 Betingelser: If, if-else og switch case 
 Grafisk brugerflader (console skærm)  
 
-Grundlæggende koncepter:
+Grundlæggende koncepter://
 1.	Hello world
 
 Det første program man typisk skriver er ”Hello World”-program
 
-~~~ 
+
 using System;
 
 namespace HelloWorld
@@ -25,4 +25,188 @@ namespace HelloWorld
         }
     }
 }
-~~~
+
+Forklaring:
+•	”using system: dette inkluderer system-bibliotek, som indeholder grundlæggende funktioner.
+•	”namespace Hello world”: En namespace er en måde at organiserer kode på.
+•	Class program: En klasse er en grundlæggende enhed i objektorienteret programmering. 
+•	Static void Main(string[] args): Main-metoden er indgangspunktet for et C# program.
+•	Console.Writeline(“Hello World!”); : Denne linje skriver ”Hello World” til konsolken.
+
+2.	Variabler og Datatyper:
+I C” skal man deklarere variabler før brug. Her nogle almindelige datatyper. 
+
+int age = 25;
+double height = 5.9;
+char grade = 'A';
+string name = "John";
+bool isStudent = true;
+
+
+3.	kontrolstrukturer 
+if-else-sætninger:
+
+
+int number = 10;
+
+if (number > 5)
+{
+    Console.WriteLine("Number is greater than 5");
+}
+else
+{
+    Console.WriteLine("Number is 5 or less");
+}
+
+Selvfølgelig! Her er en introduktion til grundlæggende programmering i C#:
+
+### Introduktion til C#
+
+C# (udtales "C-sharp") er et objektorienteret programmeringssprog udviklet af Microsoft. Det er designet til at være enkelt, moderne, fleksibelt og brugervenligt. C# anvendes især til udvikling af Windows-applikationer, webapplikationer, spil og meget mere.
+
+### Grundlæggende Koncepter
+
+#### 1. **Hello World**
+
+Det første program man typisk skriver er et "Hello World"-program. Her er et simpelt eksempel i C#:
+
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+```
+
+**Forklaring:**
+- `using System;` - Dette inkluderer System-biblioteket, som indeholder grundlæggende funktioner.
+- `namespace HelloWorld` - En namespace er en måde at organisere kode på.
+- `class Program` - En klasse er en grundlæggende enhed i objektorienteret programmering.
+- `static void Main(string[] args)` - Main-metoden er indgangspunktet for et C#-program.
+- `Console.WriteLine("Hello, World!");` - Denne linje skriver "Hello, World!" til konsollen.
+
+#### 2. **Variabler og Datatyper**
+
+I C# skal man deklarere variabler før brug. Her er nogle almindelige datatyper:
+
+```csharp
+int age = 25;
+double height = 5.9;
+char grade = 'A';
+string name = "John";
+bool isStudent = true;
+```
+
+#### 3. **Kontrolstrukturer**
+
+**If-else-sætninger:**
+
+```csharp
+int number = 10;
+
+if (number > 5)
+{
+    Console.WriteLine("Number is greater than 5");
+}
+else
+{
+    Console.WriteLine("Number is 5 or less");
+}
+```
+
+**For-løkker:**
+
+```csharp
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine("i = " + i);
+}
+```
+
+**While-løkker:**
+
+```csharp
+int i = 0;
+while (i < 5)
+{
+    Console.WriteLine("i = " + i);
+    i++;
+}
+```
+
+#### 4. **Metoder**
+
+Metoder er funktioner, der udfører specifikke opgaver. Her er et eksempel på en simpel metode:
+
+```csharp
+class Program
+{
+    static void Main(string[] args)
+    {
+        SayHello();
+    }
+
+    static void SayHello()
+    {
+        Console.WriteLine("Hello!");
+    }
+}
+```
+
+#### 5. **Klasser og Objekter**
+
+C# er objektorienteret, hvilket betyder, at du arbejder med klasser og objekter.
+
+**Eksempel på en klasse:**
+
+```csharp
+class Person
+{
+    public string Name;
+    public int Age;
+
+    public void Introduce()
+    {
+        Console.WriteLine("Hi, my name is " + Name + " and I am " + Age + " years old.");
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Person person = new Person();
+        person.Name = "John";
+        person.Age = 30;
+        person.Introduce();
+    }
+}
+```
+
+#### 6. **Egenskaber (Properties)**
+
+Egenskaber bruges til at indkapsle feltvariabler:
+
+```csharp
+class Person
+{
+    private string name;
+
+    public string Name
+    {
+        get { return name; }
+        set { name = value; }
+    }
+}
+```
+
+### Afslutning
+
+Dette er en grundlæggende introduktion til C#. Ved at forstå disse koncepter kan du begynde at skrive dine egne programmer i C#. 
